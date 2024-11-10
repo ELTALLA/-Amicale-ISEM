@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collectif des Délégués de l'ISEM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #8B4513; /* Marron */
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        header img {
+            max-width: 100px;
+            height: auto;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            padding: 2rem;
+            background-color: #f5f5dc; /* Beige */
+        }
+        footer {
+            background-color: #8B4513; /* Marron */
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo de l'ISEM">
+        <h1>Collectif des Délégués de l'ISEM</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#events">Événements</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#president">Président</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h2>À propos</h2>
+            <p>Bienvenue sur le site du Collectif des Délégués de l'ISEM. Notre mission est de représenter et de défendre les intérêts des étudiants de l'ISEM.</p>
+        </section>
+        <section id="events">
+            <h2>Événements</h2>
+            <p>Découvrez nos prochains événements et rejoignez-nous pour des moments de partage et de convivialité.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Vous pouvez nous contacter par téléphone au <strong>78 216 41 31</strong> ou via WhatsApp au <strong>76 813 91 36</strong>.</p>
+        </section>
+        <section id="president">
+            <h2>Président</h2>
+            <p>Le président Paco est une figure emblématique du Collectif des Délégués de l'ISEM. </p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Collectif des Délégués de l'ISEM. Tous droits réservés.</p>
+    </footer>
+</body>
